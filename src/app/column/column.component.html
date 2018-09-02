@@ -1,0 +1,6 @@
+<header class="column-header">
+  <h3 class="column-title">{{taskStatus}}</h3>
+</header>
+<div class="tasks">
+  <app-task *ngFor="let task of tasks" [task]="task"></app-task>
+</div>

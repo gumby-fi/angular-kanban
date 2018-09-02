@@ -1,0 +1,10 @@
+:host {
+    display: flex;
+    border: solid thin black;
+    margin: 10px;
+}
+
+.task-description {
+    opacity: 0.5;
+    padding-left: 20px;
+}

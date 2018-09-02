@@ -1,0 +1,12 @@
+<header> New Task:</header>
+<section>
+  <label for="title">Title</label>
+  <input name="title" [(ngModel)]="task.title" />
+  <br/>
+  <label for="description">Description</label>
+  <input name="description" [(ngModel)]="task.description" />
+</section>
+<footer>
+  <button (click)="save()">Save</button>
+  <button (click)="cancel()">Cancel</button>
+</footer>

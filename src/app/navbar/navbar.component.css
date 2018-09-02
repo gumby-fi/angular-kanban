@@ -1,0 +1,28 @@
+.app-header {
+    display: flex;
+    background: lightskyblue;
+}
+
+.app-header .nav-brand {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.app-header .nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.app-header .nav {
+    list-style: none;
+}
+.app-header .nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+.app-header .nav-brand i {
+    vertical-align: middle;
+}
